@@ -13,7 +13,7 @@ dummy_employees = [
     },
     {
         "id": 2,
-        "name": "Jane Smith",
+        "name": "Demo Smith",
         "position": "Data Analyst",
         "salary": 60000.00,
         "department": "Analytics",
