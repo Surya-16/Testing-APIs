@@ -24,7 +24,13 @@ dummy_employees = [
         "position": "Marketing Specialist",
         "salary": 55000.00,
         "department": "Marketing",
-    },
+    },{
+        "id": 4,
+        "name": "Leo Das",
+        "position": "Marketing Specialist",
+        "salary": 95000.00,
+        "department": "Marketing",
+    }
 ]
 
 @app.route('/get_employees', methods=['GET', 'POST'])
