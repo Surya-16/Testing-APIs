@@ -4,12 +4,12 @@ import json
 app = Flask(__name__)
 @app.route('/my_webhook', methods=['POST'])
 def return_response():
-    print(request.json);
+    print(request.json)
     ## Do something with the request.json data.
     return Response(status=201)
-@app.route('/webhook', methods=['GET'])
+@app.route('/webhook', methods=['POST','GET'])
 def get():
-    print(request.json);
+    print(request.json)
     print(request.headers)
     return Response(status=201)
 @app.route('/order', methods = ['GET'])
