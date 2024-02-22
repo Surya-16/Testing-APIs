@@ -30,7 +30,7 @@ dummy_employees = [
         "name": "Leo Das",
         "position": "Marketing Specialist",
         "salary": 95000.00,
-        "department": "Marketing",
+        "department": "Marketing-Test",
     }
 ]
 
