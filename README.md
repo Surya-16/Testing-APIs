@@ -1,2 +1,2 @@
 # Testing-APIs
-Education purpose
+Education purpose Only
