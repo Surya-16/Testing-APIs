@@ -29,7 +29,7 @@ dummy_employees = [
         "id": 4,
         "name": "Leo Das",
         "position": "Marketing Team",
-        "salary": 95000.00,
+        "salary": 195000.00,
         "department": "Marketing",
     }
 ]
