@@ -31,6 +31,13 @@ dummy_employees = [
         "position": "Marketing Team",
         "salary": 195000.00,
         "department": "Marketing",
+    },
+    {
+        "id": 5,
+        "name": "Leo mark",
+        "position": "Team",
+        "salary": 105000.00,
+        "department": "Marketing",
     }
 ]
 
