@@ -2,9 +2,9 @@ from flask import Flask, request, Response
 import requests
 import json
 app = Flask(__name__)
-@app.route('/my_webhook', methods=['POST'])
+@app.route('/my_webhook', methods=['POST','GET'])
 def return_response():
-    print(request.json)
+    print(request)
     ## Do operations with the request.json data.
     return Response(status=201)
 @app.route('/webhook', methods=['POST','GET'])
